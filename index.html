@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Movie<span>Box</span></h1>
+        </div>
+        <form id="form">
+            <input type="text" name="search" id="search" class="search" placeholder="Search Movie..." autocomplete="off">
+        </form>
+    </header>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content" id="overlay-content">
+    
+        </div>
+
+    </div>
+    <main id="main">
+        <div class="movie">
+            <img src="cover.jpg" alt="">
+            <div class="movie-info">
+                <h3>Movie Title</h3>
+                <span class="rat">Rating: 9.8</span>
+            </div>
+            <div class="overveiw">
+                <h3>Overveiw</h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nobis pariatur ullam inventore
+                ratione magnam?
+            </div>
+        </div>
+        <div class="movie">
+            <!-- <img src="cover.jpg" alt="">
+            <div class="movie-info">
+                <h3>Movie Title</h3>
+                <span class="rat">Rating: 9.8</span>
+            </div> -->
+            <div class="overveiw">
+
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nobis pariatur ullam inventore
+                ratione magnam?
+            </div>
+        </div>
+        <h1 id="movie-info-result"></h1>
+        <div class="movie">
+            <img src="cover.jpg" alt="">
+            <div class="movie-info">
+                <h3>Movie Title</h3>
+                <span class="rat">Rating: 9.8</span>
+            </div>
+            <div class="overveiw">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nobis pariatur ullam inventore
+                ratione magnam?
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
